@@ -59,6 +59,12 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Converter\BoolToVisibilityConverter.cs" />
+    <Compile Include="Converter\CountToVisibilityConverter.cs" />
+    <Compile Include="Converter\CountToInvisibilityConverter.cs" />
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="DetailsActivity.cs" />
+    <Compile Include="Services\LoggingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -81,5 +87,9 @@
       <Project>{7BC2189A-6F49-465E-8D42-6C8C9F76B980}</Project>
       <Name>MvvmLightHelp.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Converter\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>

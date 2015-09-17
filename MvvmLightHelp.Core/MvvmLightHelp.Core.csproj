@@ -35,6 +35,9 @@
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="Repositories\IProductRepository.cs" />
     <Compile Include="Model\Product.cs" />
+    <Compile Include="ViewModel\DetailsViewModel.cs" />
+    <Compile Include="Services\ILoggingService.cs" />
+    <Compile Include="Services\NavigationKey.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.3\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.3\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
@@ -59,5 +62,6 @@
   <ItemGroup>
     <Folder Include="Repositories\" />
     <Folder Include="Model\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>
